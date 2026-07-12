@@ -1,73 +1,67 @@
-# Welcome to your CleanitUp project
+# CleanRoute - Smart Waste Management System
 
-## Project info
+CleanRoute is a modern, smart waste management web application designed to help communities stay clean. It enables citizens to report waste, drivers to plan and execute clean-up routes, and administrators to manage roles and track overall community cleanliness.
 
-**URL**: https://CleanitUp.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🌟 Key Features
 
-There are several ways of editing your application.
+### 1. Citizen Dashboard (Reporting & Gamification)
+- **Waste Reporting**: Report waste locations with descriptions, severity settings, and image uploads.
+- **AI Verification**: Utilizes **TensorFlow.js (MobileNet)** to analyze uploaded waste pictures and verify waste reporting.
+- **Leaderboard**: Citizens earn points for reporting waste and participating in community cleanups, gamifying environmental action.
 
-**Use CleanitUp**
+### 2. Driver Dashboard (Smart Routing)
+- **Shift Management**: Drivers can clock in/out of their shifts.
+- **Real-Time Interactive Maps**: Integrated **Leaflet maps** and **Leaflet Routing Machine** to show optimal clean-up routes to reported waste sites.
+- **Status Updates**: Claim reports and mark them as collected/resolved directly from the map.
 
-Simply visit the [CleanitUp Project](https://CleanitUp.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 3. Admin Panel
+- **User Role Management**: Manage profiles, approve driver/admin access requests, and toggle user privileges.
+- **System Overview**: View active reports, driver shifts, and community statistics.
 
-Changes made via CleanitUp will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in CleanitUp.
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS & shadcn/ui
+- **Map & Routing**: Leaflet, React-Leaflet, and Leaflet Routing Machine
+- **Machine Learning**: TensorFlow.js / MobileNet (for client-side waste image classification)
+- **Database & Auth**: Firebase Auth and Firestore Database
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Local Setup & Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Follow these steps to run the application locally on your machine:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and `npm` installed.
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Step 1: Install Dependencies
+Navigate to the project root directory and run:
+```bash
+npm install
 ```
 
-**Edit a file directly in GitHub**
+### Step 2: Configure Firebase
+Make sure your Firestore security rules are configured in your Firebase Console to allow reading and writing:
+```javascript
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [CleanitUp](https://CleanitUp.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my CleanitUp project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.CleanitUp.dev/features/custom-domain#custom-domain)
+### Step 3: Run the Development Server
+Start the local server with hot-reloading:
+```bash
+npm run dev
+```
+Open your browser and navigate to the local address shown in your terminal (usually `http://localhost:8080`).
