@@ -1,0 +1,580 @@
+﻿
+--- SLIDE ---
+SKILLORA
+DEPARTMENT	OF	COMPUTER	SCIENCE	&	ENGINEERING
+B.TECH	MINI	PROJECT	(2023-2027	BATCH)
+Project Team: AKSHAY P(TOC23CS017) AKSHAY R NAIR(TOC23CS018)
+ALAN SINY MATHEW(TOC23CS019) BIBIN BIJU(TOC23CS042)
+Project Guide:
+MS.Chinnu Edwin A
+1.7.2013
+1.7.2013
+ΓÇ╣#ΓÇ║
+ΓÇ╣#ΓÇ║
+
+--- SLIDE ---
+CONTENTS
+INTRODUCTION 
+LITERATURE SURVEY
+PROBLEM STATEMENT IDENTIFICATION AND OBJECTIVES OF THE PROJECT
+PROPOSED SYSTEM
+FEASIBILITY STUDY AND DESIGN SYSTEM DESIGN IMPLEMENTATION AND RESULTS FUTURE WORKS SUGGESTED CONCLUSION
+REFERENCE
+1.7.2013
+1.7.2013
+ΓÇ╣#ΓÇ║
+ΓÇ╣#ΓÇ║
+
+--- SLIDE ---
+I N T R O D U C T I O N
+1.7.2013
+1.7.2013
+ΓÇ╣#ΓÇ║
+ΓÇ╣#ΓÇ║
+
+--- SLIDE ---
+INTRODUCTION
+Career planning is a major challenge for students in the early stages of education.
+Many students are unaware of their actual skills and career potential. Beginners often lack proper guidance to start their career journey.
+Internship and placement opportunities are increasing, but guidance is limited.
+Students apply to internships without knowing their suitability. Resume quality plays a critical role in selection processes.
+1.7.2013
+1.7.2013
+ΓÇ╣#ΓÇ║
+ΓÇ╣#ΓÇ║
+
+--- SLIDE ---
+Existing career platforms rely heavily on predefined skills and keywords.
+Such systems often fail to support beginners and freshers. Job and internship recommendations are frequently irrelevant. Skill gap identification is missing in most current systems.
+Interview preparation resources are scattered across platforms.
+English communication skills are often overlooked in career preparation.
+INTRODUCTION
+1.7.2013
+1.7.2013
+ΓÇ╣#ΓÇ║
+ΓÇ╣#ΓÇ║
+
+--- SLIDE ---
+Artificial Intelligence enables intelligent analysis of unstructured data.
+AI and NLP can extract skills from resumes, projects, and text inputs.
+Personalized recommendations can improve student confidence and outcomes
+Integrating guidance, evaluation, and preparation in one system is essential.
+INTRODUCTION
+
+--- SLIDE ---
+Many students are unsure about	their actual	skills and career direction.
+Beginners often struggle due to lack of	experience or a proper resume. Existing platforms depend heavily on predefined skills and keywords.
+Students receive irrelevant	internship and job recommendations. Resume evaluation and improvement	guidance is limited or unavailable. Interview preparation and communication support	are fragmented.
+There is a need for a single intelligent	system to guide students end-to-end.
+MOTIVATION
+
+--- SLIDE ---
+Addresses the real challenges faced by students in career planning and internships.
+Supports beginners who lack resumes or predefined skills.
+Aligns student skills with current industry and job market requirements. Provides objective and AI-based resume evaluation and improvement. Reduces irrelevant job and internship applications.
+Helps students identify and close skill gaps early.
+8
+RELEVANCE
+
+--- SLIDE ---
+The rapid growth of internships and entry-level opportunities has increased competition among students.
+Students often lack structured guidance to understand career paths and required skills.
+Traditional career counseling is manual, time-consuming, and not scalable.
+Resume screening and job matching are increasingly automated in industry.
+Artificial Intelligence and Natural Language Processing enable analysis of unstructured data like resumes and profiles.
+BACKGROUND
+9
+
+--- SLIDE ---
+L I T E R A T U R E
+R E V I E W
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 1 : Artificial Intelligence-Powered Personalised Career Guidance System (2025)
+Authors: Victor Emmanuel Kulugh, Kwembe Prince Aondover, Ageebee Silas Faki
+Description
+This paper proposes an AI-based system that provides personalized career guidance by analyzing student skills, interests, and preferences.
+SYSTEM : AI-Based Personalised Career Guidance System System Overview
+An AI-driven system that analyzes user interests, skills, and preferences to recommend suitable career paths, replacing traditional manual counseling.
+Advantages
+Personalized career recommendations Scalable digital solution
+Improves career decision accuracy
+
+--- SLIDE ---
+LITERATURE REVIEW
+Limitation
+Focuses mainly on career guidance
+No resume scoring or internship matching
+EXISTING SYSTEMS : Career Advisory Expert System
+Relation with Skillora
+This research forms the conceptual foundation of SkilloraΓÇÖs AI-driven career guidance approach.
+Skillora extends this work by adding resume evaluation, internship matching, and interview preparation.
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 2 : Artificial Intelligence Skills and Their Impact on the Employability of University Graduates
+Authors : Heily Concepci├│n Portocarrero Ramos et al. (2025)
+SYSTEM : AI Skill-Based Employability Analysis System System Overview
+A survey-based analytical framework that evaluates how AI skills (especially generative AI tools) influence the employability, productivity, and job alignment of university graduates.
+Description
+The study analyzes how technical and AI-related skills influence the employability of university graduates.
+Advantages
+Identifies AI skills as a key employability factor Uses real graduate data and statistical analysis
+Highlights importance of AI tool usage (e.g., ChatGPT)
+13
+
+--- SLIDE ---
+Limitation
+No practical AI system implementation Does not analyze resumes or projects
+No internship or company recommendation
+EXISTING SYSTEMS : Conversational & Generative Al Platforms
+Relation with Skillora
+This paper validates the importance of skill-based employability assessment. Skillora uses this insight to perform skill gap analysis and measure career readiness.
+LITERATURE REVIEW
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 3 : Career Counselling Recommendation System
+Authors & year : Mehul Kumar, Aryan Raj, Sandeep Kumar (2025)
+SYSTEM : AI-Based Career Counselling Recommendation System (2025) System Overview
+An AI-driven career counselling system that uses recommender systems, clustering, and NLP
+to suggest career paths based on studentsΓÇÖ academic data, skills, and interests.
+Description
+This paper uses NLP and recommender systems to extract skills from structured and unstructured student data.
+Advantages
+Personalized career recommendations
+NLP enables analysis of unstructured student data Improves accuracy over traditional counselling
+15
+
+--- SLIDE ---
+LITERATURE REVIEW
+Limitation
+Focuses only on career path suggestion No resume analysis or resume scoring
+No internship or company recommendation
+EXISTING SYSTEMS : MyCareerAid - Existing Similar System Relation with Skillora
+It directly supports SkilloraΓÇÖs ability to infer skills from free-text inputs.
+Skillora enhances this by integrating resume scoring and continuous progress tracking.
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 4 : An AI-Based Open Recommender System for Personalized Labor-Market-Driven Education
+Authors & Year : Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza
+Molavi, Stefan T. Mol, G├íbor Kismih├│k (2023)
+SYSTEM : AI-Based Labor-Market-Driven Learning Recommender (eDoer) ΓÇô 2023 System Overview
+An AI-driven learning recommender system that analyzes job market skill requirements from online job postings and maps them to open educational resources, providing personalized learning pathways.
+Description
+The system extracts skills from job postings and recommends learning paths based on labor market demands
+.Advantages
+Uses real-time labor market data
+Skill-oriented learning recommendations
+17
+
+--- SLIDE ---
+Limitation
+Focuses on learning content, not employability outcomes No resume analysis or scoring
+No internship or company matching
+EXISTING SYSTEMS : eDoer - Al Based Open Educational Recommender System Relation with Skillora
+This work supports industry-aligned skill gap identification.
+Skillora applies this concept to internships and job recommendations instead of only learning paths.
+LITERATURE REVIEW
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 5: Artificial Intelligence and R├⌐sum├⌐ Critique Experiences
+Authors & Year : David Drewery, Jennifer Woodside, Kristen Eppel (2023)
+SYSTEM : AI-Based R├⌐sum├⌐ Critique System (2023) System Overview
+An AI-powered r├⌐sum├⌐ critique tool that provides tactical feedback such as grammar, formatting, word choice, and basic skill identification to help students improve r├⌐sum├⌐ quality.
+Description
+The study evaluates the effectiveness of AI-based r├⌐sum├⌐ critique tools in improving resume quality.
+Advantages
+Fast and scalable r├⌐sum├⌐ feedback
+Identifies spelling, formatting, and wording issues Useful when staff resources are limited
+Improves basic r├⌐sum├⌐ readability
+19
+
+--- SLIDE ---
+Limitation
+Focuses mainly on tactical feedback Limited strategic career guidance
+No resume scoring with employability context
+EXISTING SYSTEMS : Traditional Face-to-Face R├⌐sum├⌐ Critique System Relation with Skillora
+This paper justifies the use of AI for automated resume evaluation.
+Skillora combines resume scoring with career guidance to overcome the limitations identified.
+LITERATURE REVIEW
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 6 : AI-Driven Semantic Similarity-Based Job Matching Framework for Recruitment Systems
+Authors & Year :	Mohammed-Hassan Ajjama, Hamed S. Al-Raweshidy (2025) SYSTEM : AI-Based Semantic Job Matching System (2025)
+System Overview
+An AI-driven recruitment framework that uses semantic similarity, NLP, and contextual embeddings to match resumes with job descriptions more accurately than traditional keyword- based systems.
+Description
+This research analyzes job postings using web scraping to identify trending industry skills.
+Advantages
+Context-aware resumeΓÇôjob matching Outperforms keyword-based recruitment systems Scalable for large recruitment dataset
+21
+
+--- SLIDE ---
+Limitation
+Focuses only on jobΓÇôcandidate matching
+No resume scoring or improvement suggestions No internship-specific recommendations
+EXISTING SYSTEMS :	Al-Driven Semantic Similarity-Based Job Matching Framework
+Relation with Skillora
+It reinforces the need for industry-relevant skill analysis.
+Skillora uses similar insights to keep internship and job recommendations up to date.
+LITERATURE REVIEW
+
+--- SLIDE ---
+LITERATURE REVIEW
+Research paper 7 : Resume Classification Using Machine Learning
+Authors & Year : Abhijith K. S., Anita Babu (2025)
+SYSTEM : ML-Based Resume Classification System (2025) System Overview
+A machine learningΓÇôbased system that classifies resumes into predefined job categories using
+TF-IDF vectorization and Logistic Regression, deployed through a Flask web application.
+Description
+The paper proposes NLP-based techniques to match resumes with job descriptions accurately.
+Advantages
+Automates resume screening High classification accuracy
+Reduces manual recruiter workload Scalable for large resume datasets
+23
+
+--- SLIDE ---
+Limitation
+Only classifies resumes into job roles
+No resume scoring or improvement suggestions No internship or company matching
+EXISTING SYSTEMS : Resume Classification System using Machine Learning Relation with Skillora
+This work supports SkilloraΓÇÖs semantic internship and job matching approach. Skillora extends it by including skill gap analysis and explainable recommendations..
+LITERATURE REVIEW
+
+--- SLIDE ---
+LITERATURE REVIEW
+Uses real job market data
+Advanced NLP and semantic clustering
+Research paper 8 : Skill Scanner: An AI-Based Recommendation System for Employers, Job Seekers, and Educational Institutions
+Authors & Year : Tim Schlippe, Koen Bothmer (2023)
+SYSTEM : Skill Scanner ΓÇô AI-Based Skill Recommendation System (2023) System Overview
+An AI-based recommendation system that extracts, clusters, and compares skills from job postings, CVs, and educational curricula using NLP techniques such as Sentence-BERT, UMAP, DBSCAN, and K-means to identify missing and covered skills.
+Description
+This system uses advanced NLP models to identify skills and missing gaps from resumes and job data.
+Advantages
+Skill-centric employability analysis
+25
+
+--- SLIDE ---
+Limitation
+Focuses mainly on skill comparison, not student readiness No resume scoring or formatting feedback
+No internship or company recommendation engine
+EXISTING SYSTEMS : Skill Scanner - Al-Based Recommendation System Relation with Skillora
+This paper closely aligns with SkilloraΓÇÖs skill discovery and gap analysis modules. Skillora further enhances this by adding resume scoring, interview preparation, and progress tracking.
+LITERATURE REVIEW
+
+--- SLIDE ---
+COMPARISON TABLE
+
+--- SLIDE ---
+FOCUS
+STRENGTH
+LIMITATION
+RELEVANCE
+Artificial Intelligence Skills and Their Impact on the Employability of University Graduates
+PAPER'S
+ARTIFICIAL INTELLIGENCE
+-POWERED PERSONALISE D CAREER GUIDANCE SYSTEM (2025)
+Career guidance using AI
+Impact of AI skills on employability
+Proves skillΓÇô employability correlation
+Personalized career recommendati ons
+No resume scoring	or internship matching
+No practical system implementatio n
+Validates AI- driven career guidance
+Supports skill gap & readiness analysis
+AUTHOR
+Victor Emmanuel Kulugh, Kwembe Prince Aondover, Ageebee Silas Faki (2025)
+Heily Concepci├│n Portocarrero Ramos et al. (2025)
+
+--- SLIDE ---
+PAPER'S
+AUTHOR
+STRENGTH
+LIMITATION
+RELEVANCE
+FOCUS
+CAREER COUNSELLING RECOMMENDA TION SYSTEM
+An AI-Based Open Recommende r System for
+Personalized
+Driven Education
+AI-based career recommendati on
+Labor-market driven recommendati ons
+Skill gap identification
+Skill extraction from text input
+No resume scoring or progress tracking
+No internship or resume evaluation
+Supports beginner skill discovery
+Supports skill gap & recommendati o n engine
+Mehul Kumar, Aryan Raj, Sandeep Kumar (2025)
+Mohammadrez a Tavakoli, Abdolali Faraji, Jarno Vrolijk,
+Mohammadrez
+Labor-Market-	a Molavi, Stefan
+T. Mol, G├íbor
+Kismih├│k (2023)
+
+--- SLIDE ---
+PAPER'S
+FOCUS
+STRENGTH
+LIMITATION
+RELEVANCE
+AI-Driven Semantic Similarity- Based Job Matching Framework for Recruitment Systems
+ARTIFICIAL INTELLIGENCE AND R├ëSUM├ë CRITIQUE EXPERIENCES
+AI-based resume feedback
+ResumeΓÇôjob matching
+Accurate automated matching
+Improves resume clarity & structure
+Limited strategic guidance
+No beginner support or skill gaps
+Justifies resume scoring module
+Supports smart internship matching
+AUTHOR
+David Drewery, Jennifer Woodside, Kristen Eppel (2023)
+Mohammed- Hassan Ajjama, Hamed S. Al- Raweshidy (2025)
+
+--- SLIDE ---
+PAPER'S
+AUTHOR
+STRENGTH
+LIMITATION
+RELEVANCE
+FOCUS
+RESUME CLASSIFICATI ON USING MACHINE LEARNING
+Skill Scanner: An AI-Based Recommenda tion System for Employers, Job Seekers, and Educational Institutions
+Tim Schlippe, Koen Bothmer (2023)
+Abhijith K. S., Anita Babu (2025)
+Explainable skill gap detection
+AI provides strong tactical feedback
+No interview preparation module
+Limited strategic guidance and self-reflection support
+Strong foundation for skill discovery & explainability
+Justifies automated resume scoring with AI
++ need for guidance layer
+Skill-centric AI recommendati ons
+Effectiveness of AI-based r├⌐sum├⌐ critique tools
+
+--- SLIDE ---
+PROBLEM IDENTIFICATION AND OBJECTIVES OF THE PROJECT
+29
+
+--- SLIDE ---
+PROBLEM STATEMENT AND OBJECTIVES OF THE PROJECT
+PROBLEM STATEMENT
+Students	are	often	unaware	of		their	true		skills	and		potential,	especially beginners		without	resumes	or		defined	skill	sets.	Existing	platforms	rely	on keyword-based	matching,	leading	to	poor	resume	evaluation	and	irrelevant internship	recommendations.	Skill		gaps	are not identified, interview preparation is fragmented, and there is no clear way for students to track their progress or improvement over time.
+30
+
+--- SLIDE ---
+PROBLEM STATEMENT AND OBJECTIVES OF THE PROJECT
+OBJECTIVES
+To identify a studentΓÇÖs skills and potential from resumes, GitHub profiles, or simple text input, including beginners with no prior experience.
+To objectively evaluate resume quality using AI and provide clear, actionable suggestions for improvement.
+3. Career Opportunity Alignment
+To recommend relevant internships and companies by semantically matching student profiles with job requirements.
+31
+
+--- SLIDE ---
+PROBLEM STATEMENT AND OBJECTIVES OF THE PROJECT
+OBJECTIVES
+To assess student preparedness by identifying gaps between current skills and role requirements.
+To improve student confidence and performance in technical and communication interviews.
+6.progress tracking
+To support continuous growth by monitoring and guiding student progress over time.
+32
+
+--- SLIDE ---
+Proposed	system
+Skillora
+AI-based career guidance platform for students Skill discovery from resumes and text input Resume scoring with improvement feedback Smart internship and job recommendations Skill gap analysis and interview preparation Progress tracking with centralized backend
+The system tracks user progress and career readiness over time
+A unified backend architecture ensures consistency across web and mobile platforms.
+The system is scalable, beginner-friendly, and modular in design.
+33
+
+--- SLIDE ---
+Technical Feasibility
+Uses open-source and proven technologies Web frontend built with React.js & JavaScript Mobile app developed using Flutter
+Single unified backend using Python FastAPI AI/NLP tools support resume and skill analysis Design tools improve user experience
+FEASIBILITY STUDY
+34
+
+--- SLIDE ---
+Economic Feasibility
+No licensing cost due to open-source stack Low development and deployment cost Scalable infrastructure with minimal expenses
+Operational Feasibility
+Simple and user-friendly system Minimal training required for users
+Easy maintenance with centralized backend
+FEASIBILITY STUDY
+35
+
+--- SLIDE ---
+Social Feasibility
+Helps students and beginners equally Promotes skill-based career growth Improves employability and awareness
+FEASIBILITY STUDY
+35
+
+--- SLIDE ---
+SYSTEM DESIGN
+HIGH LEVEL DESIGN
+Client Layer
+Includes Web Application and Mobile Application
+Allows users to upload resumes, enter details, and view results Sends requests to the backend through APIs
+Backend Layer
+Acts as the central controller of the system
+Handles request processing, authentication, and business logic Coordinates communication between clients, AI modules, and data storage
+36
+
+--- SLIDE ---
+HIGH LEVEL DESIGN
+AI Processing Layer
+Performs skill extraction and inference Evaluates resume quality and generates scores
+Matches student profiles with internships and companies Identifies skill gaps and generates recommendations
+Data Layer
+Stores user profiles, resumes, job listings, and progress data Provides structured and unstructured data for AI processing Ensures data consistency and availability
+SYSTEM DESIGN
+37
+
+--- SLIDE ---
+HIGH LEVEL DESIGN
+System Flow
+User submits input through web or mobile interface Backend processes the request and triggers AI analysis AI modules generate insights and recommendations Results are stored and returned to the user interface
+SYSTEM DESIGN
+37
+
+--- SLIDE ---
+38
+SYSTEM DESIGN
+
+--- SLIDE ---
+SYSTEM DESIGN	: ACTIVITY DIAGRAM
+38
+
+--- SLIDE ---
+SYSTEM DESIGN : UML DIAGRAM
+39
+
+--- SLIDE ---
+MODULE DESCRIPTION
+
+--- SLIDE ---
+MODULE DESCRIPTION
+1.User Authentication Module
+  .The User Authentication Module manages the registration and login. 
+  .It ensures that only authorized users can access the platform and its features. 
+  .The module stores user credentials securely and validates them during login.
+  .It also manages user sessions and profile information.
+2.Skill Analysis Module
+  .The Skill Analysis Module extracts and analyzes user skills from resumes,  
+   ,Github profiles,or text inputs using natural language processing.                                        
+  .The module identifies relevant technical and soft skills from the provided data
+   and generate a structurd skill profile for each user.
+  .This information later used for resume evaluation,internship recommendation
+   and skill gap analysis.
+
+--- SLIDE ---
+MODULE DESCRIPTION
+3.Resume Evaluation Module
+  .The Resume Evaluation Module analyzes the structure and quality of user 
+     resumes.
+  .It evaluates elements such as formatting, content clarity, skill representation,
+    and relevance to industry standards.
+  .Based on analysis system generate a resume score and provide suggestion.
+4.Internship Recommentation Module
+  .The internship recommendation module suggests suitable internship and job
+   oppurtunities based on user skill profile.
+  .The system compare user skills and industry requirments to generate relevant
+   recommentations.
+
+--- SLIDE ---
+MODULE DESCRIPTION
+5.Skill gap analysis module
+  .The Skill Gap Analysis Module identifies the difference between the userΓÇÖs 
+   current skills and the skills required for specific job roles.
+  .By analyzing industry demands, the system suggests areas where the user 
+   needs improvement.
+  .This helps students understand what skills they should develop to increase
+   their employability.
+6.Interview preparation module
+  .The Interview Preparation Module helps users prepare for technical and
+   communication interviews.
+  .The Interview Preparation Module helps users prepare for technical and
+   communication interviews.
+  .The Interview Preparation Module helps users prepare for technical and
+   communication interviews
+
+--- SLIDE ---
+MODULE DESCRIPTION
+7.Progress Tracking Module
+  .The Progress Tracking Module monitors user improvement over time by
+   storing analysis results, recommendations, and skill updates. 
+  .It allows users to track their career readiness and observe how their skills and
+   resume quality improve as they follow the systemΓÇÖs recommendations.
+
+--- SLIDE ---
+IMPLEMENTATION AND RESULTS
+SYSTEM REQUIRMENTS
+1.Hardware requirments:
+  .processor: intel core i3 or above.
+  .Ram: minimum 4GB
+  .Storage: 20GB
+2.Software requirments:
+  .Frontend: Flutter(Dart)
+  .Backend: Python Fast API
+  .Database: Firebase Firestore
+  .Operating system: Windows/Linux/MacOS
+
+--- SLIDE ---
+IMPLEMENTATION  AND RESULTS
+
+--- SLIDE ---
+ IMPLEMENTATION AND RESULTS
+
+--- SLIDE ---
+ IMPLEMENTATION AND RESULTS
+
+--- SLIDE ---
+ IMPLEMENTATION AND RESULTS
+
+--- SLIDE ---
+SYSTEM TESTING
+
+--- SLIDE ---
+ FUTURE WORKS SUGGESTED
+
+--- SLIDE ---
+REFERENCE
+Kulugh, V. E., Aondover, K. P., & Faki, A. S., ΓÇ£Artificial Intelligence- Powered Personalised Career Guidance System,ΓÇ¥ Research Journal Article, Dutse Journal of Pure and Applied Sciences (DUJOPAS), vol. 11, no. 1c, pp. 92ΓÇô104, Mar. 2025.
+Portocarrero Ramos, H. C., et al., ΓÇ£Artificial Intelligence Skills and Their Impact on the Employability of University Graduates,ΓÇ¥ Research Journal Article, Frontiers in Artificial Intelligence, vol. 8, 2025, doi: 10.3389/frai.2025.1629320.
+Kumar, M., Raj, A., & Kumar, S., ΓÇ£Career Counselling Recommendation System,ΓÇ¥ Research	Paper, Preprints.org, Apr. 2025, doi: 10.20944/preprints202504.1542.v1.
+40
+
+--- SLIDE ---
+REFERENCE
+Tavakoli, M., et al., ΓÇ£An AI-Based Open Recommender System for Personalized Labor Market-Driven Education,ΓÇ¥ Research Journal Paper, Advanced Engineering Informatics (Elsevier), vol. 52, 2023, doi: 10.1016/j.aei.2021.101508.
+Drewery, D., Woodside, J., & Eppel, K., ΓÇ£Artificial Intelligence and R├⌐sum├⌐ Critique Experiences,ΓÇ¥ Research Journal Article, Canadian Journal of Career Development, vol. 21, no. 2, 2023.
+Ajjam, M.-H., & Al-Raweshidy, H. S., ΓÇ£AI-Driven Semantic Similarity-Based Job Matching Framework for Recruitment Systems,ΓÇ¥ Research Paper, Information Sciences (Elsevier ΓÇô SSRN), 2025.
+40
+
+--- SLIDE ---
+REFERENCE
+Abhijith, K. S., & Babu, A., ΓÇ£Resume Classification Using Machine Learning,ΓÇ¥ Research Journal Article, International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), vol. 14, no. 6, Jun. 2025, doi: 10.15680/IJIRSET.2025.1406173.
+Schlippe, T., & Bothmer, K., ΓÇ£Skill Scanner: An AI-Based Recommendation System for Employers, Job Seekers and Educational Institutions,ΓÇ¥ Research Journal Paper, International Journal of Advanced Corporate Learning (iJAC), vol. 16, no. 1, pp. 55ΓÇô66, 2023, doi: 10.3991/ijac.v16i1.34779.
+40
+
+--- SLIDE ---
+CONCLUSION
+Skillora successfully addresses key challenges in student career planning and employability.
+The system uses AI and NLP to discover skills, evaluate resumes, and provide relevant career recommendations.
+It supports beginners as well as experienced students through a unified guidance platform.
+The modular and scalable design ensures consistency across web and mobile platforms.
+Overall, Skillora enhances career readiness and bridges the gap between student potential and industry requirements.
+40
+
+--- SLIDE ---
+THANK YOU
+41

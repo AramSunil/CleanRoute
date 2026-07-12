@@ -1,0 +1,54 @@
+// Firestore Security Rules for CleanRoute
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && 
+        exists(/databases/$(database)/documents/user_roles/$(request.auth.uid)) && 
+        get(/databases/$(database)/documents/user_roles/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    // 1. User Roles Collection
+    match /user_roles/{userId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.auth.uid == userId;
+      allow update: if isOwner(userId) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // 2. Profiles Collection
+    match /profiles/{userId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.auth.uid == userId;
+      allow update: if isOwner(userId) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // 3. Users Mapping Collection
+    match /users/{userId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.auth.uid == userId;
+      allow update: if isOwner(userId) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // 4. Reports Collection
+    match /reports/{reportId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn(); // Citizens update status/details, drivers claim, admins manage
+      allow delete: if isAdmin();
+    }
+  }
+}
